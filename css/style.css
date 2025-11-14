@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+}
