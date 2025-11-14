@@ -129,6 +129,26 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media screen and (max-width:1160px) {
+    .steps {
+        display: inline-block;
+    }
+
+    /* .body {
+        width: 100%;         NON SERVE
+        display: flex;
+    } */
+
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        max-width: 100%;
+    }
+
+}
+
 @media screen and (max-width:768px) {
     .container {
         max-width: 100%;
@@ -143,5 +163,10 @@ img {
 
     .col {
         flex-basis: 100%;
+    }
+
+    .why-us {
+        background-color: darkblue;
+        margin-top: -45px;
     }
 }
